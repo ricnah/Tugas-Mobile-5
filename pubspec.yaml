@@ -1,0 +1,36 @@
+name: kelas_saham
+description: "Aplikasi Flutter Kelas Saham - menampilkan daftar kelas investasi dengan detail dan pencarian."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.1 
+
+  # Paket ikon bawaan iOS-style
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/kelas1.jpg
+    - assets/kelas2.jpg
+    - assets/kelas3.jpg
+    - assets/kelas4.jpg
+    - assets/kelas5.jpg
+    - assets/kelas6.jpg
+    - assets/kelas7.jpg
+    - assets/kelas8.jpg
+    - assets/kelas9.jpg
+    - assets/kelas10.jpg
